@@ -1,0 +1,10 @@
+$(document).ready(function(){
+      $('.autoplay').slick({
+      	autoplay:true,
+  autoplaySpeed:1500,
+  arrows:true,
+  centerMode:true,
+  slidesToShow:3,
+  slidesToScroll:1
+      });
+    });

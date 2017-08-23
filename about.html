@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About us</title>
+	<script src ="javascript\geolocation.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAF1JjFiVcQhh1YLymiikTP-zCOYNdKkP8&callback=initMap"
+    async defer></script>
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous">
+  </script>
+    <script src="Javascript/navBar.js"></script>
+    <link rel="stylesheet" type="text/css" href="css\geolocation.css">
+	
+</head>
+<body>
+<nav>
+</nav>
+<p>
+	<b>Hours Of Business</b>
+</p>
+
+<table>
+	<tr>
+		<th>
+			Day
+		</th>
+				<th>
+			Hours
+		</th>
+	</tr>
+	<tr>
+		<td>Sunday</td>
+		<td>7:00AM - 9:00PM</td>
+	</tr>
+	<tr>
+		<td>Monday</td>
+		<td>7:00AM - 9:00PM</td>
+	</tr>
+	<tr>
+		<td>Tuesday</td>
+		<td>7:00AM - 9:00PM</td>
+	</tr>
+	<tr>
+		<td>Wednesday</td>
+		<td>7:00AM - 9:00PM</td>
+	</tr>
+	<tr>
+		<td>Thursday</td>
+		<td>7:00AM - 9:00PM</td>
+	</tr>
+	<tr>
+		<td>Friday</td>
+		<td>7:00AM - 9:00PM</td>
+	</tr>
+	<tr>
+		<td>Saturday</td>
+		<td>7:00AM - 9:00PM</td>
+	</tr>
+</table>
+<br>
+
+<p>
+	We are located at 214 W Ash Street Unit 1, Columbia, MO 65203
+</p>
+<input type="button" value="Click to see where we're located"
+               onclick="javascript:showlocation()" />  <br />
+               Latitude: <span id="latitude"></span>   <br />
+              Longitude: <span id="longitude"></span>
+    <br /><br />
+    <div id="map"></div>
+
+</body>
+</html>
